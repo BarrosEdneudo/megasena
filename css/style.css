@@ -1,0 +1,58 @@
+body {
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: lightgray;
+}
+
+button {
+	cursor: pointer;
+	margin: 5px;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+	border: 1px solid;
+}
+
+.numbers {
+	border: 5px solid gray;
+	margin: auto;
+	padding: 05px;
+	list-style-type: none;
+	font-family: monospace;
+	font-size: 50px;
+	font-weight: bolder;
+	color: darkblue;
+	text-align: center;
+}
+
+.liNumber {
+	display: inline-block;
+	margin: 10px;
+	border: 1px solid gray;
+	padding: 10px;
+	width: 60px;
+	border-radius: 100%;
+	user-select: none;
+	cursor: pointer;
+}
+
+.selectedNumber {
+	background-color: green;
+}
+
+.hidden {
+	display: none;
+}
+
+.jogoSalvo {
+	list-style-type: none;
+	margin: 00px;
+	font-size: 50px;
+	
+}
+
+.jogosSalvos{
+	margin: 0px;
+	padding: 0px;
+}
+
